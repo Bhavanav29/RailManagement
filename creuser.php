@@ -84,7 +84,7 @@
             width: 100%;
             height: 100%;
         }
-        input[type="button"]{
+        input[type="submit"]{
             width: 100%;
             height: 100%;
             border: #f1f1f1 solid 0px;
