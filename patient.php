@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hospital Management System</title>
+    <title>Railway Management System</title>
     <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
-    <link rel="icon" href="images/icon.png" type="image/icon type">
+    <link rel="icon" href="images/train.png" type="image/icon type">
     <style>
 
         ol li {
@@ -58,7 +58,7 @@
         }
         .bg-image {
             /* The image used */
-            background-image: url("images/adminback.jpg");
+            background-image: url("images/trainimg.jpg");
 
             /* Add the blur effect */
             position: fixed;
@@ -87,13 +87,13 @@
 </head>
 <body>
 <div class="bg-image"></div>
-<h1>Patient Operations</h1>
+<h1>Customer Operations</h1>
 <div class="content" style="background-color: #ffffff">
-    <img src="images/hospitalisation.png" width="150px" style="float: left">
+    <img src="images/railway-station.png" width="150px" style="float: left">
     <ol class="list">
-        <li class="list-item one"><a href="viewapp.php">View Appointment</a></li>
-        <li class="list-item two"><a href="puppapp.php">Update Appointment</a></li>
-        <li class="list-item three"><a href="pdelapp.php">Delete Appointment</a></li>
+        <li class="list-item one"><a href="viewapp.php">View Reservation</a></li>
+        <li class="list-item two"><a href="puppapp.php">Update Reservation</a></li>
+        <li class="list-item three"><a href="pdelapp.php">Delete Reservation</a></li>
         <li class="list-item four"><a href="index.php">Logout</a></li>
     </ol>
 </div>

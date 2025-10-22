@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hospital Management System</title>
+    <title>Railway Management System</title>
     <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
-    <link rel="icon" href="images/icon.png" type="image/icon type">
+    <link rel="icon" href="images/train.png" type="image/icon type">
     <style>
         /* Bordered form */
 form {
@@ -102,8 +102,8 @@ b{
 
     <label for="utype"><b>Type</b></label><br>
     <select id="utype" name="utype" required>
-        <option value="doctor">Doctor</option>
-        <option value="patient">Patient</option>
+        <option value="employee">Employee</option>
+        <option value="customer">Customer</option>
         <option value="admin">Admin</option>
     </select>
 

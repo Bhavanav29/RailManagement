@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hospital Management System</title>
+    <title>Railway Management System</title>
     <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
-    <link rel="icon" href="images/icon.png" type="image/icon type">
+    <link rel="icon" href="images/train.png" type="image/icon type">
     <style>
         .styled-table {
             border-collapse: collapse;
@@ -76,7 +76,7 @@
             background-color: #f1f1f1;
         }
         body{
-            background-image: url("images/tabback.jpg");
+            background-image: url("images/tabback2.jpg");
             background-size: cover;
             background-repeat: no-repeat;
         }
@@ -93,12 +93,16 @@
             color: #009879;
             font-weight: bolder;
         }
+        h1
+        {
+            color: #ffffff;
+        }
     </style>
 </head>
 
 <body>
 
-<h1 style="text-align: center">Delete User</h1>
+<h1 style="text-align: center">Delete Reservation</h1>
 <form action="pdelappact.php" method="post">
     <table class="styled-table">
         <tbody>

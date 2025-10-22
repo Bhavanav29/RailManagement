@@ -16,11 +16,11 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
         {
             header("Location:admin.php");
         }
-        else if($type=="doctor")
+        else if($type=="employee")
         {
             header("Location:doctor.php");
         }
-        else if($type=="patient")
+        else if($type=="customer")
         {
             header("Location:patient.php");
         }

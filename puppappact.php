@@ -4,7 +4,7 @@ session_start();
 if($_SERVER["REQUEST_METHOD"]=="POST") {
     $email = $_POST["email"];
     $dt=$_POST["dt"];
-    $sql = "update `app` set dt='$dt' where umail='$email'; ";
+    $sql = "update `res` set dt='$dt' where umail='$email'; ";
     if ($db->query($sql) === TRUE) {
         echo '<script>alert("Record updated successfully");';
         echo 'document.location.href="patient.php"</script>';

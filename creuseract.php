@@ -7,7 +7,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST") {
     $age = $_POST["age"];
     $phno = $_POST["phno"];
     $addr = $_POST["addr"];
-    $psw = "hosp@123";
+    $psw = "hotel@123";
     $type = $_POST["utype"];
         $sql = "insert into `user` values('$email','$name','$type','$age','$psw','$phno','$addr')";
         if ($db->query($sql) === TRUE) {

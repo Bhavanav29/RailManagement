@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hospital Management System</title>
+    <title>Railway Management System</title>
     <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
-    <link rel="icon" href="images/icon.png" type="image/icon type">
+    <link rel="icon" href="images/train.png" type="image/icon type">
     <style>
         .styled-table {
             border-collapse: collapse;
@@ -64,28 +64,28 @@
     </style>
 </head>
 <body>
-<h1 style="text-align: center">Appointements</h1>
+<h1 style="text-align: center">Reservations</h1>
 <table class="styled-table">
     <thead>
     <tr>
         <th>Email</th>
-        <th>Doctor</th>
-        <th>date</th>
+
+        <th>Date</th>
         <th>Phone Number</th>
     </tr>
     </thead>
     <tbody>
     <?php
     include ("config.php");
-    $sql="select * from `app`";
+    $sql="select * from `res`";
     $result = $db->query($sql);
     if ($result->num_rows > 0) {
         // output data of each row
         while($row = $result->fetch_assoc()) {
-            echo "<tr><td>".$row["umail"]."</td>"."<td>".$row["dmail"]."</td>"."<td>".$row["dt"]."</td>"."<td>".$row["phno"]."</td></tr>";
+            echo "<tr><td>".$row["umail"]."</td>"."<td>".$row["dt"]."</td>"."<td>".$row["phno"]."</td></tr>";
         }
     } else {
-        echo "<tr><td colspan='6' style='text-align: center'>No Appointments</td></tr>";
+        echo "<tr><td colspan='6' style='text-align: center'>No Reservations</td></tr>";
     }
     ?>
     <tr>
